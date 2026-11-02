@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REST API Task Manager</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="container">
+
+    <header>
+      <span class="eyebrow">REST API DEMO</span>
+      <h1>Task Manager</h1>
+      <p>Manage your tasks using a RESTful API.</p>
+    </header>
+
+    <!-- Form to create new tasks -->
+    <form id="task-form">
+      <input
+        id="task-input"
+        type="text"
+        placeholder="What needs to be done?"
+        maxlength="120"
+        required
+      >
+      <button type="submit">Add Task</button>
+    </form>
+
+    <!-- List of tasks -->
+    <div class="task-header">
+      <h2>Your Tasks</h2>
+      <span id="task-count">0 remaining</span>
+    </div>
+
+    <ul id="task-list"></ul>
+
+    <p id="error-message" role="alert"></p>
+
+    <!-- Displays the latest HTTP request -->
+    <section class="api-panel">
+      <h3>Latest API Request</h3>
+      <div id="api-log">Waiting for requests...</div>
+    </section>
+
+  </main>
+</body>
+</html>

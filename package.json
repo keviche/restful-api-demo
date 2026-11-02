@@ -1,0 +1,23 @@
+{
+  "name": "restful-api-demo",
+  "version": "1.0.0",
+  "description": "A visual Task Manager demonstrating RESTful APIs using Node.js, Express, and JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keviche/restful-api-demo.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/keviche/restful-api-demo/issues"
+  },
+  "homepage": "https://github.com/keviche/restful-api-demo#readme",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
